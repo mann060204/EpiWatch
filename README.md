@@ -21,14 +21,25 @@ EpiWatch is a real-time global health surveillance system designed to monitor, a
 ## 📋 Project Structure
 ```text
 Epidemic_Project/
-├── .streamlit/        # Streamlit configuration
 ├── dashboard/
-│   └── app.py         # Main entry point for the dashboard
+│   ├── app.py         # Main entry point (Latest Engine)
+│   └── app1.py        # Development Version
+├── src/               # Modular Analysis Scripts
+│   ├── data_cleaning.py
+│   ├── features.py
+│   ├── growth_model.py
+│   ├── load_data.py
+│   ├── severity_model.py
+│   └── severity_ranking.py
+├── notebooks/         # Exploratory Analysis
+│   └── model_evaluation.ipynb
 ├── data/
-│   └── owid-covid-data.csv # COVID-19 dataset
-├── .gitignore         # Git exclusion rules
-├── README.md          # Project documentation
-└── requirements.txt   # Python dependencies
+│   └── owid-covid-data.csv # Data Source
+├── .streamlit/        # Dashboard Config
+├── generate_nb.py     # Notebook Generator
+├── README.md          # Project Overview
+├── DOCUMENTATION.md   # Technical Reference
+└── requirements.txt   # Dependencies
 ```
 
 ## 📋 Setup & Installation

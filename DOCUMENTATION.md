@@ -8,10 +8,10 @@ By integrating traditional mathematical modeling with modern machine learning, E
 ---
 
 ## 2. System Architecture
-The application is built on a **Streamlit-driven micro-engine** architecture:
--   **Data Layer**: Ingests high-resolution global COVID-19 data from *Our World in Data (OWID)*.
--   **Intelligence Engine**: An autonomous backend that benchmarks multiple ML models on every session to ensure the highest predictive accuracy.
--   **Simulations Layer**: A mathematical compartment modeling system (SEIR) that solves ordinary differential equations (ODEs) to simulate viral trajectories.
+The application is built on a **Streamlit-driven micro-engine** architecture with a modular development foundation:
+-   **Data Layer**: Ingests high-resolution global COVID-19 data from *Our World in Data (OWID)*. Supported by modular readers in the `src/` directory.
+-   **Intelligence Engine**: An autonomous backend that benchmarks multiple ML models on every session. The development history of these models is preserved in the `src/` modular scripts and exploratory notebooks.
+-   **Simulations Layer**: A mathematical compartment modeling system (SEIR) that solves ordinary differential equations (ODEs).
 -   **Frontend**: A high-performance "Apple Sleek" clinical dashboard with interactive Plotly visualizations.
 
 ---
