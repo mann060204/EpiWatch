@@ -74,5 +74,6 @@ streamlit run dashboard/app.py
 ## 📊 Data Source
 This project uses data provided by **Our World in Data (OWID)**.
 
+Dataset Link: https://www.kaggle.com/datasets/bolkonsky/covid19
 ---
 *Developed for Global Health Intelligence & Predictive Analytics.*
