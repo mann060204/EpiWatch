@@ -74,6 +74,10 @@ streamlit run dashboard/app.py
 ## 📊 Data Source
 This project uses data provided by **Our World in Data (OWID)**.
 
+## Project Contributors
+1. Mann Monpara
+2. Sachi Upadhyay
+
 ```
 Dataset Link: https://www.kaggle.com/datasets/bolkonsky/covid19
 ```
